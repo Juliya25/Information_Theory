@@ -1,0 +1,15 @@
+with open('it.txt') as f:
+    txt = f.read()
+listtt= list(txt)
+size = len(listtt)
+mydict ={}
+for word in listtt:
+        if word in mydict:
+            mydict[word] += 1
+        else:
+            mydict[word] = 1
+print(mydict)
+print(60*'-')
+print(len(txt))
+print(size)
+print(60*'-')

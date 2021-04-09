@@ -1,5 +1,0 @@
-size = len(listtt)
-print(len(txt))
-print(size)
-for key, value in mydict.items():
-  print(key, 'Probability:', round(value/size, 3))
